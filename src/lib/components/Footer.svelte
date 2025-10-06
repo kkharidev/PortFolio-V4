@@ -2,7 +2,6 @@
 	import Icon from '@iconify/svelte';
 	import img from '$lib/assets/footer.webp';
 	import { fadeUp } from '$lib/fadeUp';
-	import { resolve } from '$app/paths';
 	const links = [
 		{ href: 'https://instagram.com/kkharidev', icon: 'ri:instagram-fill' },
 		{ href: 'https://in.linkedin.com/in/kkharidev', icon: 'mdi:linkedin' },

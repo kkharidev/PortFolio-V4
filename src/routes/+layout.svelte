@@ -26,14 +26,14 @@
 	<div in:blur={{ amount: 15 }}>
 		{@render children?.()}
 	</div>
-{/key}
-<!-- {#if page.url.pathname != '/contact'} -->
-<Footer />
-<!-- {/if} -->
-<div class="parent overflow-hidden">
-	<div class="container-custom font-sm justify-center border-t-0! py-5 text-center font-medium">
-		<div use:fadeUp>
-			<p>Copyright © {new Date().getFullYear()} K K Haridev All rights reserved.</p>
+	<Footer />
+	<!-- {/if} -->
+	<div class="parent overflow-hidden">
+		<div class="container-custom font-sm justify-center border-t-0! py-5 text-center font-medium">
+			<div use:fadeUp>
+				<p>Copyright © {new Date().getFullYear()} K K Haridev All rights reserved.</p>
+			</div>
 		</div>
 	</div>
-</div>
+{/key}
+<!-- {#if page.url.pathname != '/contact'} -->
