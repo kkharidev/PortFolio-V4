@@ -34,13 +34,13 @@
 			</div>
 		</div>
 		<div
-			class="fade-item aspect-video w-full  bg-gray-200 grayscale duration-300 group-hover:grayscale-0 sm:w-1/2"
+			class="fade-item aspect-video! h-full w-full  overflow-hidden md:grayscale duration-300 group-hover:grayscale-0 sm:w-1/2"
 			use:fadeUp={{ group: false }}
 		>
 			<img
 				src={image}
 				alt="work"
-				class="h-full w-full object-cover object-top transition-all duration-[4000ms] ease-in-out group-hover:object-bottom"
+				class="h-full w-full object-cover aspect-video object-top transition-all  duration-[4000ms] ease-in-out group-hover:object-bottom"
 			/>
 		</div>
 	</div>
