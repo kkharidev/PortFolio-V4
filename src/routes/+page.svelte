@@ -18,7 +18,7 @@
 			<div class="flex flex-col items-start justify-start gap-2 font-semibold">
 				<h1 class="fade-item text-3xl uppercase md:text-4xl lg:text-5xl">K K Haridev</h1>
 				<p class="fade-item max-w-[45ch] text-justify text-base capitalize sm:text-left md:text-lg">
-					I’m a Front-End Developer with 10+ years of experience creating seamless, user-focused
+					I’m a Front-End Developer with 3+ years of experience creating seamless, user-focused
 					interfaces that bridge design and technology.
 				</p>
 			</div>
