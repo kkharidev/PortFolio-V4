@@ -36,7 +36,7 @@
 					{#each links as link, i (i)}
 						<div class="fade-item">
 							<a
-								href={resolve(link.href)}
+								href={link.href}
 								target="__blank"
 								class="flex items-center gap-2.5 text-lg font-normal text-charcoal duration-300 ease-in-out hover:opacity-80"
 							>

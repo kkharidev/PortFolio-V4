@@ -25,7 +25,7 @@
 			</div>
 			<div class="fade-item">
 				<a
-					href={resolve(link)}
+					href={link}
 					target="__blank"
 					class="flex cursor-pointer items-center border-[1.3px] border-charcoal bg-charcoal px-4 py-1 text-sm text-white uppercase duration-300 ease-in-out hover:bg-transparent hover:text-charcoal sm:px-6 sm:text-base"
 				>
