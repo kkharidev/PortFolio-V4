@@ -58,7 +58,7 @@
 		/>
 	{/each}
 
-	<div class="container-custom flex-col items-center border-b-0 py-10 font-semibold">
+	<div class="container-custom flex-col items-center border-b-0 py-6  md:py-8 lg:py-10 font-semibold">
 		<a
 			href={resolve('/works')}
 			class="flex cursor-pointer items-center border-[1.3px] border-charcoal bg-transparent px-4 py-1 text-sm text-charcoal uppercase duration-300 ease-in-out hover:bg-charcoal hover:text-white sm:px-6 sm:text-base"
