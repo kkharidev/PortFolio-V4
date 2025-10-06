@@ -34,7 +34,7 @@
 			</div>
 		</div>
 		<div
-			class="fade-item aspect-video w-full bg-gray-200 grayscale duration-300 group-hover:grayscale-0 sm:w-1/2"
+			class="fade-item aspect-video w-full overflow-hidden bg-gray-200 grayscale duration-300 group-hover:grayscale-0 sm:w-1/2"
 			use:fadeUp={{ group: false }}
 		>
 			<img
