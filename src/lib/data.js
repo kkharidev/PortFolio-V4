@@ -1,6 +1,8 @@
 import mso from '$lib/assets/works/MSO.webp';
 import sristi from '$lib/assets/works/sristi.webp';
 import bharatham from '$lib/assets/works/bharatham.webp';
+import brahma from '$lib/assets/works/brahma.webp';
+import grootland from '$lib/assets/works/grootland.webp';
 
 export const works = [
 	{
@@ -20,6 +22,18 @@ export const works = [
 		desc: 'Developed the Sristi event site for Algata, focused on presenting event highlights and information through a fast, responsive layout.',
 		image: sristi,
 		link: 'https://srishti.demo.algata.in/'
+	},
+	{
+		title: 'Grootland India',
+		desc: 'Created GrootlandIndia.in, building an informative, client-facing site that highlights company services and identity with clean UI and polished responsiveness.',
+		image: grootland,
+		link: 'https://grootland.in/'
+	},
+	{
+		title: 'Brahma',
+		desc: 'Developed the Brahma event site for ASIET Techno cultural fest, focused on presenting event highlights and information through a fast, responsive layout.',
+		image: brahma,
+		link: 'https://brahma24-idh5.vercel.app//'
 	}
 ];
 
