@@ -12,6 +12,7 @@ export function fadeUp(
 		opacity: 0,
 		duration,
 		delay,
+
 		ease: 'power3.out'
 	};
 
@@ -19,10 +20,11 @@ export function fadeUp(
 		const items = node.querySelectorAll('.fade-item');
 		animation = gsap.from(items, {
 			...commonProps,
+			
 			stagger,
 			scrollTrigger: {
 				trigger: node,
-				start: 'top 90%',
+				start: 'top bottom',
 				toggleActions: once ? 'play none none none' : 'play none none reverse'
 			}
 		});
@@ -31,7 +33,7 @@ export function fadeUp(
 			...commonProps,
 			scrollTrigger: {
 				trigger: node,
-				start: 'top 100%',
+				start: 'top bottom',
 				toggleActions: once ? 'play none none none' : 'play none none reverse'
 			}
 		});
