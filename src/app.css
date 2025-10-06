@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@theme {
+	--color-charcoal: #3f3f3f;
+	--color-mist: #e7e7e9;
+	--color-cloud: #d9d9d9;
+	--color-porcelain: #f6f6f6;
+	--width-min_f: min(1920px, 99.9999%);
+	--width-min_c: min(1440px, 92%);
+	--font-urbanist: 'Urbanist', sans-serif;
+}
+
+@layer base {
+	body {
+		@apply bg-porcelain font-urbanist text-charcoal;
+	}
+}
+
+@layer components {
+	.parent,
+	.card-parent {
+		@apply mx-auto flex w-min_f items-center justify-center border-b-[1.3px] border-mist;
+	}
+
+	.container-custom,
+	.card-container {
+		@apply box-border flex w-min_c border-x-[1.3px] border-mist px-6 md:px-8 lg:px-10 xl:px-12;
+	}
+}
