@@ -27,7 +27,7 @@ export const works = [
 		title: 'Grootland India',
 		desc: 'Created GrootlandIndia.in, building an informative, client-facing site that highlights company services and identity with clean UI and polished responsiveness.',
 		image: grootland,
-		link: 'https://grootland.in/'
+		link: 'https://grootlandindia.in/'
 	},
 	{
 		title: 'Brahma',
