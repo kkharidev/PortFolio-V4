@@ -26,8 +26,11 @@
 				<div>
 					<h5 class="fade-item text-lg font-semibold">Email</h5>
 					<div class="fade-item flex items-center gap-1 text-lg font-normal text-charcoal">
-						haridev@gmail.com <button class="cursor-pointer"
-							><Icon icon="solar:copy-line-duotone" class="h-6 w-6" /></button
+						kkharidev[at]gmail[dot]com <button
+							class="cursor-pointer"
+							onclick={() => {
+								navigator.clipboard.writeText('kkharidev[at]gmail[dot]com');
+							}}><Icon icon="solar:copy-line-duotone" class="h-6 w-6" /></button
 						>
 					</div>
 				</div>
